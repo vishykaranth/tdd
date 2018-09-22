@@ -1,7 +1,8 @@
+package mockito;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -20,13 +21,13 @@ class CustomerTestWithDoubles {
         customer.addPhone(MOBILE_PHONE);
         customer.addPhone(LAND_LINE);
 
-        assertTrue(customer.hasMobile());
+        Assertions.assertTrue(customer.hasMobile());
     }
 
     @Test
     void shouldReturnFalse() {
         customer.addPhone(LAND_LINE);
 
-        assertFalse(customer.hasMobile());
+        Assertions.assertFalse(customer.hasMobile());
     }
 }

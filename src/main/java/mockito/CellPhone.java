@@ -1,3 +1,5 @@
+package mockito;
+
 public class CellPhone {
     private final boolean mobile;
     private final String number;
