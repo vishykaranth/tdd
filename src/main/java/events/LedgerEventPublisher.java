@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 
 public class LedgerEventPublisher implements ApplicationEventPublisherAware {
 	private ApplicationEventPublisher eventPublisher;
+
 	@Override
 	public void setApplicationEventPublisher(ApplicationEventPublisher applicationEventPublisher) {
 		this.eventPublisher = applicationEventPublisher;
