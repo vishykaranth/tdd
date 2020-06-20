@@ -1,0 +1,18 @@
+
+https://learnitmyway.com/tdd-example/
+
+I am going to demonstrate TDD by completing FizzBuzz. I have chosen to show each step in Java because most of my work so far has been in this language. However, the same concepts apply to any object oriented language. The complete source code can be found on Github in Java or JavaScript.
+
+The exercise is complete when the following input:
+
+[1, 2, 3, 5, 6, 10, 15, 30]
+results in the following output:
+
+"1, 2, Fizz, Buzz, Fizz, Buzz, FizzBuzz, FizzBuzz"
+
+When demonstrating this exercise I like to make the following points:
+
+Don’t write any production code before you have a failing test (including compile errors!)
+Make each step as small and simple as possible.
+Commit as soon as you have a passing test.
+
